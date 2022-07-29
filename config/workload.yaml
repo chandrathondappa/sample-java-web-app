@@ -11,11 +11,11 @@ metadata:
 spec:
   params:
   - name: gitops_server_address
-    value: https://git-codecommit.us-east-2.amazonaws.com/
+    value: "https://git-codecommit.us-east-2.amazonaws.com/v1/repos/"
   - name: gitops_repository_owner
-    value: ynamadi
+    value: ""
   - name: gitops_user_name
-    value: "yunusa"
+    value: "chevured-at-900919292663"
   - name: gitops_user_email
     value: "ynamadi@vmware.com"
   - name: gitops_commit_message
@@ -23,7 +23,7 @@ spec:
   - name: gitops_branch
     value: master
   - name: gitops_repository_name
-    value: java-web-app
+    value: sample-java-web-app
   - name: gitops_ssh_secret
     value: git-ssh-devops
   - name: gitops_server_kind
@@ -35,4 +35,4 @@ spec:
     git:
       url: https://git-codecommit.us-east-2.amazonaws.com/v1/repos/sample-java-web-app
       ref:
-        branch: develop
+        branch: master
